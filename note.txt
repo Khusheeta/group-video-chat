@@ -1,0 +1,2 @@
+We need to change the token every 24 hours.
+the token is available at agora website https://console.agora.io/projects

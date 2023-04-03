@@ -1,0 +1,84 @@
+/* Set styles for video streams container */
+#video-streams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    height: 90vh;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /* Set styles for each video container */
+  .video-container {
+    max-height: 100%;
+    border: 2px solid black;
+  
+  }
+  
+  /* Set styles for the video player within each container */
+  .video-player {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Set styles for the stream controls */
+  #stream-controls {
+    display: none;
+    justify-content: center;
+    margin-top: 0.5em;
+  }
+  #join-btn {
+    /* Existing styles */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+
+
+
+  #leave-btn{
+    padding: 10px 20px;
+    background-color: rgb(81, 34, 34);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 2%;
+  }
+  
+  #mic-btn{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 2%;
+  }
+
+  #camera-btn{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Set responsive styles for smaller screens */
+  @media screen and (max-width: 1400px) {
+    #video-streams {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      width: 95%;
+    }
+  }
+  
